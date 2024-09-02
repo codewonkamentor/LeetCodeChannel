@@ -35,14 +35,15 @@ Time - O(n)
 Space - O(n)
 ===============
 """
+from collections import defaultdict
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         last_seen = defaultdict(int)
         start = max_length = 0
         for end, char in enumerate(s):
-            if char in seen and start<=seen[char]:
-                start = seen[char]+1
+            if char in last_seen and start <= last_seen[char]:
+                start = last_seen[char]+1
             last_seen[char] = end
-            max_length = max(max_len, end-start+1)
+            length_of_substr = end-start+1
+            max_length = max(max_length, length_of_window)
         return max_length
-
