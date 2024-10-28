@@ -1,11 +1,11 @@
 """
 1004. Max Consecutive Ones III [Medium]
 https://leetcode.com/problems/random-pick-with-weight/
+Youtube Video link: https://youtu.be/kDhRXCWF5HU
 
 ### 1. Question Explanation:
 ----------------------------
 Given a binary array nums and an integer k, return the maximum number of consecutive 1's in the array if you can flip at most k 0's.
-
 """
 
 """
