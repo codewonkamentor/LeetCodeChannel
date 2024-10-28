@@ -1,5 +1,7 @@
 """
+138. Copy List with Random Pointer [Medium]
 https://leetcode.com/problems/copy-list-with-random-pointer/
+Youtube Video link: https://youtu.be/HQbBCHoIIFU
 
 ### 1. Question Explanation:
 ----------------------------
@@ -11,7 +13,6 @@ Return the head of the copied linked list.
 
 ### 2. HashMap Based Solution:
 ----------------------------
-Video link: https://youtu.be/HQbBCHoIIFU
 1. Edge Case Handling:
     - If the input list is empty (head is None), return immediately.
 2. First Pass: Creating Copy Nodes
